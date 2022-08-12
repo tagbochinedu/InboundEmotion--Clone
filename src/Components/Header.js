@@ -10,14 +10,14 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("resize", handleResize);
-    if (width > 767) {
+    if (width > 1034) {
       setMenu(false);
     }
   }, [width]);
 
   return (
     <div className="px-6 xl:px-24 py-4 lg:py-8">
-      <div className="sm:flex justify-between mb-5 md:mb-10">
+      <div className="sm:flex justify-between mb-5 lg:mb-10">
         <p className="text-sm text-slate-700">
           +34 931 591 821{" "}
           <a
@@ -79,66 +79,66 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="md:mt-10 flex justify-between">
+      <div className="flex justify-between items-start">
         <img
-          className="w-48 h-4 md:w-64 md:h-6"
+          className="w-48 h-4 lg:w-64 lg:h-6 mt-6 lg:mt-0"
           src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1490281506-png/Inbound_Emotion/logo_nuevo.png"
           alt="logo"
         />
 
-        <div className="flex justify-between ">
-          <ul className={`${"lg:flex text-sm"} ${menu ? "" : "hidden"}`}>
-            <li className='mb-4 lg:mb-0 font-merri'>
+        <div className="flex justify-between">
+          <ul className={`${"lg:flex text-sm hidden lg:text-md w-11/12 lg:w-full"} ${menu ? "sm:block" : ""}`}>
+            <li className='mb-6 md:mb-0 font-merri'>
               <a
                 href="http://inboundemotion.com/inbound-marketing"
-                className="text-slate-500 hover:text-slate-700 lg:mx-4"
+                className="text-slate-500 hover:text-slate-700 lg:mx-3"
               >
                 Inbound Marketing
               </a>
             </li>
-            <li className='my-4 lg:my-0 font-merri'>
+            <li className='my-6 lg:my-0 font-merri'>
               <a
                 href="http://inboundemotion.com/diseno-web"
-                className="text-slate-500 hover:text-slate-700 lg:mx-4"
+                className="text-slate-500 hover:text-slate-700 lg:mx-3"
               >
                 Web Design
               </a>
             </li>
-            <li className='my-4 lg:my-0 font-merri'>
+            <li className='my-6 lg:my-0 font-merri'>
               <a
                 href="http://inboundemotion.com/blog"
-                className="text-slate-500 hover:text-slate-700 lg:mx-4"
+                className="text-slate-500 hover:text-slate-700 lg:mx-3"
               >
                 Blog
               </a>
             </li>
-            <li className='my-4 lg:my-0 font-merri'>
+            <li className='my-6 lg:my-0 font-merri'>
               <a
                 href="http://inboundemotion.com/recursos"
-                className="text-slate-500 hover:text-slate-700 lg:mx-4"
+                className="text-slate-500 hover:text-slate-700 lg:mx-3"
               >
                 Means
               </a>
             </li>
-            <li className='my-4 lg:my-0 font-merri'>
+            <li className='my-6 lg:my-0 font-merri'>
               <a
                 href="http://inboundemotion.com/agencia"
-                className="text-slate-500 hover:text-slate-700 lg:mx-4"
+                className="text-slate-500 hover:text-slate-700 lg:mx-3"
               >
                 Agency
               </a>
             </li>
-            <li className='my-4 lg:my-0 font-advent'>
+            <li className='my-6 lg:my-0 font-advent'>
               <a
                 href="https://www.inboundemotion.com/es/consulta-personalizada-de-inbound-marketing?hsLang=es"
-                className="bg-orange-400 rounded-2xl text-white py-1.5 px-10 lg:ml-4"
+                className="bg-orange-400 rounded-2xl text-white py-2 px-6 lg:px-10 lg:ml-4"
               >
                 REQUEST A CONSULTATION
               </a>
             </li>
           </ul>
           <span
-            className="lg:hidden"
+            className="lg:hidden w-auto"
             onClick={() => {
               setMenu(!menu);
             }}
@@ -151,6 +151,56 @@ const Header = () => {
           </span>
         </div>
       </div>
+      <ul className={`${"text-sm sm:hidden mx-auto w-4/6"} ${menu ? "" : "hidden"}`}>
+            <li className='mb-6 md:mb-0 font-merri'>
+              <a
+                href="http://inboundemotion.com/inbound-marketing"
+                className="text-slate-500 hover:text-slate-700 lg:mx-2"
+              >
+                Inbound Marketing
+              </a>
+            </li>
+            <li className='my-6 lg:my-0 font-merri'>
+              <a
+                href="http://inboundemotion.com/diseno-web"
+                className="text-slate-500 hover:text-slate-700 lg:mx-2"
+              >
+                Web Design
+              </a>
+            </li>
+            <li className='my-6 lg:my-0 font-merri'>
+              <a
+                href="http://inboundemotion.com/blog"
+                className="text-slate-500 hover:text-slate-700 lg:mx-2"
+              >
+                Blog
+              </a>
+            </li>
+            <li className='my-6 lg:my-0 font-merri'>
+              <a
+                href="http://inboundemotion.com/recursos"
+                className="text-slate-500 hover:text-slate-700 lg:mx-2"
+              >
+                Means
+              </a>
+            </li>
+            <li className='my-6 lg:my-0 font-merri'>
+              <a
+                href="http://inboundemotion.com/agencia"
+                className="text-slate-500 hover:text-slate-700 lg:mx-2"
+              >
+                Agency
+              </a>
+            </li>
+            <li className='my-6 lg:my-0 font-advent'>
+              <a
+                href="https://www.inboundemotion.com/es/consulta-personalizada-de-inbound-marketing?hsLang=es"
+                className="bg-orange-400 rounded-2xl text-white py-2 px-6 lg:px-10 lg:ml-4"
+              >
+                REQUEST A CONSULTATION
+              </a>
+            </li>
+          </ul>
     </div>
   );
 };

@@ -9,6 +9,9 @@ module.exports = {
         'julius': "Julius Sans One",
         'alegreya' : 'Alegreya Sans, sans-serif'
       },
+      colors: {
+        'bgBody': '#FFF8F3',
+      },
     },
   },
   plugins: [],
