@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         'bgBody': '#FFF9F4',
         'orng' : '#EC8128',
-        'bgBody2' : '#75A6A2'
+        'bgBody2' : '#75A6A2',
+        ''
       },
     },
   },

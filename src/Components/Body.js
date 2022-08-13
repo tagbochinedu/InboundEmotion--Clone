@@ -265,7 +265,8 @@ const Body = () => {
             className="w-56 h-56 mx-auto"
           />
           <p className="font-semibold text-white font-merri text-lg text-center my-6 mx-auto max-w-xs">
-            6 marketing metrics <br/>your boss will want to know
+            6 marketing metrics <br />
+            your boss will want to know
           </p>
           <a
             href="https://www.inboundemotion.com/cs/c/?cta_guid=73e35770-df7a-4e99-8f56-3ef967fbc18b&signature=AAH58kFB0tmZYB1s-vPtX3Vaxe0GGa1qQg&pageId=1629878010&placement_guid=58070202-f767-4c91-9947-2c1d57b09390&click=be0f8f6e-f4aa-4da3-b1cd-e1342e8f3508&hsutk=c8044aefdb4eae323392af15d0d9a702&canon=https%3A%2F%2Fwww.inboundemotion.com%2F&portal_id=340557&redirect_url=APefjpEr4_R7l3-a73uI9fAiymEYQTAl-ATH0HE55oKWSq67XbDWXxvJ9RfYGZZe3q1hNm2Gp7r3B30Wg7PcPje0Wdt2Y33NZeZkkLqF7b3vYYzgwwUd6VdUhdLK_l6fkN6aG8bIh-DEeDGtbUA_0RNVvAIXXqEkWnAzvQX_uPqRrYmADErsWZrRp4T8slDUnIiPRJj9bVfBA6cCI-84YV56e8l5j6yoHzPAXGiH7p-TsOzhL0eLFFeNlC4fZos10DrNdTsbMQsedxgiZQEGzAH8EpugvsCnNQ&__hstc=17946854.c8044aefdb4eae323392af15d0d9a702.1659531370778.1660246670372.1660250579742.5&__hssc=17946854.1.1660250579742&__hsfp=838111798&contentType=standard-page"
@@ -291,6 +292,92 @@ const Body = () => {
           >
             SHALL WE TALK ABOUT YOUR MARKETING?
           </a>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <ul>
+              <li>
+                <a href="http://inboundemotion.com/inbound-marketing">
+                  WHAT IS INBOUND MARKETING?
+                </a>
+              </li>
+              <li>
+                <a href="http://inboundemotion.com/hubspot">
+                  WHAT IS HUBSPOT AND HOW DOES IT WORK?
+                </a>
+              </li>
+              <li>
+                <a href="http://inboundemotion.com/diseno-web">
+                  DESIGN YOUR WEBSITE
+                </a>
+              </li>
+              <li>
+                <a href="http://inboundemotion.com/recursos">WE HELP YOU</a>
+              </li>
+              <li>
+                <a href="http://inboundemotion.com/agencia">KNOW US</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a href="https://plus.google.com/u/0/+Inboundemotionplus/posts">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1486351614-png/Inbound_Emotion/iconos/google.png"
+                    alt="Google+"
+                  />Enter our Circle
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/inboundemotion">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1483587023-png/Inbound_Emotion/iconos/twiiter-1.png"
+                    alt="Twitter"
+                  />follow us
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/inboundemotion">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1483587013-png/Inbound_Emotion/iconos/facebook.png"
+                    alt=""
+                  />become a fan
+                </a>
+              </li>
+              <li>
+                <a href="http://www.pinterest.com/inboundemotion/">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1483055534-png/Inbound_Emotion/iconos/pinterest.png"
+                    alt=""
+                  />See our pins
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/inbound-emotion">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1486920267-png/Inbound_Emotion/iconos/linkedin.png"
+                    alt=""
+                  />connect with us
+                </a>
+              </li>
+              <li>
+                <a href="http://inboundemotion.com/blog/rss.xml">
+                  <img
+                    src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1483587018-png/Inbound_Emotion/iconos/rss.png"
+                    alt=""
+                  />Don't miss a thing
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+          <div></div>
         </div>
       </section>
     </>
