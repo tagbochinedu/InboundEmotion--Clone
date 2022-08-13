@@ -241,40 +241,56 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section className="bg-bgBody2">
-        <div>
+      <section className="bg-bgBody2 flex justify-between flex-wrap px-6 xl:px-24 py-28">
+        <div className="w-4/12 text-center">
           <img
             src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1719531335-png/Inbound_Emotion/Home/ctahome_herramientas.png?width=330&name=ctahome_herramientas.png"
             alt=""
-            className=""
+            className="w-56 h-56 mx-auto"
           />
-          <p>Basic tools to launch and analyze an inbound campaign</p>
+          <p className="font-semibold text-white font-merri text-lg text-center my-6 mx-auto max-w-xs">
+            Basic tools to launch and analyze an inbound campaign
+          </p>
           <a
             href="https://www.inboundemotion.com/cs/c/?cta_guid=8d0e2352-fb86-4290-bc65-18273cc6e3e5&signature=AAH58kHaLPa--KpxZLRz1RiKVMvqB7OU1w&pageId=1629878010&placement_guid=97ff17e9-e619-4987-9db4-f7a136c4a766&click=f26a5f31-cd6d-4bcf-a3bd-1f7422b86b72&hsutk=c8044aefdb4eae323392af15d0d9a702&canon=https%3A%2F%2Fwww.inboundemotion.com%2F&portal_id=340557&redirect_url=APefjpGG7ixJee5U5gz4HwB_7N5R_FF8qvr5AVfJFuMZOU0ih4jW5uuDh7Oo4ahePbcPAWhmr-6X5s-LeHf-hbp3Y35Z8mzuNdlM_aLOYn_Fy_rL6u64-nyYikuBmC5KgYsDNVXUOzE7FMIoHE2Bwhdy5oQckAWcK559oEav8s4YA-l2NEX5hSXKDh-ZOg-vE15ZDHGQ_NjnvoxoUt-Zjb5c5L7dMuFRCM5m81_zqxNvvMpWHDBLknlr9iWOX4kvhrRWOC3HVtWlDB_nx_YXeTGC2d84Z-H4viRAk6NChDECHSIcOU4Seyik5Nkbfxt4B75z2YOZPD0u&__hstc=17946854.c8044aefdb4eae323392af15d0d9a702.1659531370778.1660246670372.1660250579742.5&__hssc=17946854.1.1660250579742&__hsfp=838111798&contentType=standard-page"
-            className="text-orng bg-bgBody rounded-3xl"
+            className="text-orng bg-bgBody rounded-3xl font-advent px-6 py-2 text-lg font-semibold text-center"
           >
             DOWNLOAD THIS E-BOOK{" "}
           </a>
         </div>
-        <div>
+        <div className="w-4/12 text-center">
           <img
             src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1719531330-png/Inbound_Emotion/Home/ctahome_disenoweb.png?width=227&name=ctahome_disenoweb.png"
             alt=""
-            className=""
+            className="w-56 h-56 mx-auto"
           />
-          <p></p>
-          <a href="" className="text-orng bg-bgBody rounded-3xl">
+          <p className="font-semibold text-white font-merri text-lg text-center my-6 mx-auto max-w-xs">
+            6 marketing metrics <br/>your boss will want to know
+          </p>
+          <a
+            href="https://www.inboundemotion.com/cs/c/?cta_guid=73e35770-df7a-4e99-8f56-3ef967fbc18b&signature=AAH58kFB0tmZYB1s-vPtX3Vaxe0GGa1qQg&pageId=1629878010&placement_guid=58070202-f767-4c91-9947-2c1d57b09390&click=be0f8f6e-f4aa-4da3-b1cd-e1342e8f3508&hsutk=c8044aefdb4eae323392af15d0d9a702&canon=https%3A%2F%2Fwww.inboundemotion.com%2F&portal_id=340557&redirect_url=APefjpEr4_R7l3-a73uI9fAiymEYQTAl-ATH0HE55oKWSq67XbDWXxvJ9RfYGZZe3q1hNm2Gp7r3B30Wg7PcPje0Wdt2Y33NZeZkkLqF7b3vYYzgwwUd6VdUhdLK_l6fkN6aG8bIh-DEeDGtbUA_0RNVvAIXXqEkWnAzvQX_uPqRrYmADErsWZrRp4T8slDUnIiPRJj9bVfBA6cCI-84YV56e8l5j6yoHzPAXGiH7p-TsOzhL0eLFFeNlC4fZos10DrNdTsbMQsedxgiZQEGzAH8EpugvsCnNQ&__hstc=17946854.c8044aefdb4eae323392af15d0d9a702.1659531370778.1660246670372.1660250579742.5&__hssc=17946854.1.1660250579742&__hsfp=838111798&contentType=standard-page"
+            className="text-orng bg-bgBody rounded-3xl font-advent px-6 py-2 text-lg font-semibold"
+          >
             DOWNLOAD THIS E-BOOK{" "}
           </a>
         </div>
-        <div>
+        <div className="w-4/12 text-center">
           <img
             src="https://www.inboundemotion.com/hs-fs/hubfs/Inbound_Emotion/Home/icono_consulta.png?width=250&name=icono_consulta.png"
             alt=""
-            className=""
+            className="w-56 h-56 mx-auto"
           />
-          <p></p>
-          <a href="" className="text-orng bg-bgBody rounded-3xl"></a>
+          <p className="font-semibold text-white font-merri text-lg text-center my-6 mx-auto max-w-xs">
+            Shall we talk about your marketing?
+            <br />
+            Request a free consultation
+          </p>
+          <a
+            href="https://www.inboundemotion.com/cs/c/?cta_guid=d5142ad2-0636-4b8f-aa95-ea45237958dd&signature=AAH58kHfgYSvObtpRsfJ88T_16G3TGHi6Q&pageId=1629878010&placement_guid=1f684bf5-9ab3-40b7-b0b5-07a67c9cd09f&click=0229a82b-1845-4cfa-a130-52a3c9cdfebe&hsutk=c8044aefdb4eae323392af15d0d9a702&canon=https%3A%2F%2Fwww.inboundemotion.com%2F&portal_id=340557&redirect_url=APefjpFYHiVtwI9wLVxlLrr8myrFgLkMsRv3GI1SEYvd4FJS6gZUTP2nH9_ALP4NZsubetcpmE4jbABxAC_QB3i19gtAFACWLB2EIs4_B2Bp9Tad-t4slUJr-o3f9t5P9kCGXBlcHFBPrWRr6lZulYOeaIY5A-4dz7NXJ65EFVKMmHKFa4U9CUP1mJH6vrSCIrbsTnHlgWaFKXMyLi23q76S37MIJ_N7TqGk2sttMaL6f3b3OB0hUU-qerTQnvgY3lJrRNG9E3IXcHC1gUDIohdb3nosz-LdVpsx0Mg8jpSSoszWdtoTEFo&__hstc=17946854.c8044aefdb4eae323392af15d0d9a702.1659531370778.1660246670372.1660250579742.5&__hssc=17946854.1.1660250579742&__hsfp=838111798&contentType=standard-page"
+            className="text-orng bg-bgBody rounded-3xl font-advent px-6 py-2 text-lg font-semibold"
+          >
+            SHALL WE TALK ABOUT YOUR MARKETING?
+          </a>
         </div>
       </section>
     </>

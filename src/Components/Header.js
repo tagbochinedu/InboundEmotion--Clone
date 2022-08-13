@@ -81,7 +81,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      <div className="px-6 xl:px-24 pb-4 lg:pb-8 pt-5 lg:pt-10 sticky z-20 top-0 bg-white">
+      <div className="px-6 xl:px-24 pb-4 lg:pb-6 pt-4 lg:pt-8 sticky z-20 top-0 bg-white">
         <div className="flex justify-between items-start">
           <img
             className="w-48 h-4 lg:w-64 lg:h-6 mt-6 lg:mt-0 "
