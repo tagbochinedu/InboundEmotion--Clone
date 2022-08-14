@@ -75,14 +75,14 @@ const Body = () => {
               <img
                 src="https://cdn2.hubspot.net/hub/353206/file-841005100-png/images/MANO.png"
                 alt="hand"
-                className={`${"mx-auto lg:relative left-11 z-10 hidden lg:block transition ease-in"} ${
-                  transition ? "-top-36" : "-top-56"
+                className={`${"mx-auto lg:relative left-11 z-10 hidden lg:block transition-all ease-in-out duration-300"} ${
+                  transition ? "-top-[16px]" : "-top-[224px]"
                 }`}
               />
               <img
                 src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1554307572-png/Inbound_Emotion/Home/diamante.png"
                 alt="diamond"
-                className="h-80 w-80 mx-auto relative left-16 -top-64 hidden lg:block"
+                className="h-80 w-80 mx-auto relative left-16 -top-32 hidden lg:block"
               />
             </div>
           </div>
