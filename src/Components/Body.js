@@ -19,7 +19,7 @@ const Body = () => {
             />
           </div>
         </div>
-        <div className="relative -top-96">
+        <div className="relative xl:-top-96 md:-top-80 -top-24">
           <a href="#nextSection">
             <img
               src="https://cdn2.hubspot.net/hub/353206/file-836801976-png/images/btn_scroll.png"
@@ -29,15 +29,15 @@ const Body = () => {
           </a>
 
           <div
-            className="bg-orng h-screen  text-white flex px-6 xl:px-32"
+            className="bg-orng h-screen  text-white px-10 lg:flex lg:px-36 xl:px-32"
             id="nextSection"
           >
-            <div className="w-1/2  pt-36">
+            <div className="lg:w-1/2 lg:pt-36 pt-24">
               <h2 className="font-merri text-4xl leading-tight">
                 THE MARKETING <br />{" "}
                 <span className="font-source">that people like</span>
               </h2>
-              <p className="max-w-lg text-lg leading-loose font-merri mt-6 mb-16">
+              <p className="lg:max-w-lg text-lg leading-loose font-merri mt-6 mb-16">
                 With our inbound marketing strategy, we add value to your
                 products and services so that your clients or potential clients
                 resolve their doubts or needs in a non-intrusive and
@@ -53,24 +53,24 @@ const Body = () => {
                 SHALL WE ACCOMPANY YOU?
               </a>
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <img
                 src="https://cdn2.hubspot.net/hub/353206/file-841005100-png/images/MANO.png"
                 alt="hand"
-                className="mx-auto relative left-11 -top-44 z-10"
+                className="mx-auto lg:relative left-11 -top-44 z-10 hidden lg:block"
               />
               <img
                 src="https://www.inboundemotion.com/hs-fs/hub/340557/file-1554307572-png/Inbound_Emotion/Home/diamante.png"
                 alt="diamond"
-                className="h-80 w-80 mx-auto relative left-16 -top-52"
+                className="h-80 w-80 mx-auto relative left-16 -top-52 hidden lg:block"
               />
             </div>
           </div>
         </div>
-        <div className="relative -top-96 px-6 xl:px-32 py-20">
+        <div className="relative xl:-top-96 md:-top-80 -top-24 px-10 lg:px-36 xl:px-32 py-20 lg:pt-36 pt-24">
           <div>
             <h1 className="font-source text-orng text-5xl">What do we do?</h1>
-            <p className="max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
+            <p className="lg:max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
               We do inbound marketing, non-invasive and personalized marketing.
               A method that consists of analyzing your ideal buyer client (buyer
               persona) and their stage of purchase (buyer's journey). Based on
@@ -85,7 +85,7 @@ const Body = () => {
             <h1 className="font-source text-orng text-5xl">
               How are we different?
             </h1>
-            <p className="max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
+            <p className="lg:max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
               We do inbound marketing 100% (and we are passionate about it!). We
               offer you a pack of prior and personalized strategy to know your
               needs, your market, your competition and to establish objectives
@@ -95,7 +95,7 @@ const Body = () => {
           </div>
           <div>
             <h1 className="font-source text-orng text-5xl">For whom?</h1>
-            <p className="max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
+            <p className="lg:max-w-lg text-lg leading-loose font-merri mt-6 mb-16 text-gray-600">
               For small, medium and large companies. Consumer habits have
               changed and inbound marketing adapts to them. Marketing
               departments must change their marketing strategy if they want to
@@ -105,12 +105,12 @@ const Body = () => {
               more than 10% in profits.
             </p>
           </div>
-          <div className="flex justify-between items-end">
-            <div>
+          <div className="lg:flex justify-between items-end">
+            <div className='mb-24'>
               <h1 className="font-source text-orng text-5xl">
                 Why do we do it?
               </h1>
-              <p className="max-w-lg text-lg leading-loose font-merri mt-6 text-gray-600">
+              <p className="lg:max-w-lg text-lg leading-loose font-merri mt-6 text-gray-600">
                 Because it is what we know how to do best and we are satisfied
                 to give benefits to our clients. Why? Because inbound marketing
                 is not an expense, it is an investment whose overall costs for
@@ -119,7 +119,7 @@ const Body = () => {
                 positive trend, month after month.
               </p>
             </div>
-            <div>
+            <div className='flex justify-end'>
               <a
                 href="https://www.inboundemotion.com/cs/c/?cta_guid=50b89217-d43d-404f-9cc3-9fd2c109a33a&signature=AAH58kFubNvefYKCBugALqwmea7Q3ISZrQ&pageId=1629878010&placement_guid=5277a106-2fcd-44fd-b743-146f8e0f4c6f&click=0db548be-501f-43d7-b08b-33e5d5667744&hsutk=c8044aefdb4eae323392af15d0d9a702&canon=https%3A%2F%2Fwww.inboundemotion.com%2F&portal_id=340557&redirect_url=APefjpEuGvILUDg3WGZGTjRBA2j6CyUhGEQK2vY3LR6MBjIzDXUYIgPmlW_EKqJu1sDk-Ss-o9YGzKg4qMX1KG3jMZ1qW7nXsnTNyuWQmbW9GbqAX0Q9uPMD8rFj8CnR4xl3QspK1B011PlW9YRHGjoa_mmRG-aG45bt7_kd0RavGys0GtjfcPKX3jRtXNsEGIM3JFDvu4e6FKJRu5UMAUf1t8YH_o4STlyQBZFhC-Al9h5-TiLPwGQ&__hstc=17946854.c8044aefdb4eae323392af15d0d9a702.1659531370778.1660246670372.1660250579742.5&__hssc=17946854.1.1660250579742&__hsfp=838111798&contentType=standard-page"
                 className="font-advent rounded-3xl bg-orng text-bgBody text-xl py-3 px-6 font-semibold"
